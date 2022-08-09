@@ -1,6 +1,15 @@
-# The via keymap for Durgod Taurus K310/K320.
+# Vial port for Durgod Taurus K320 with some extras
 
-Layer 0 : Standard layout
-
-Layer 1 : Media control
-- Reusing Durgod's Original Media Control for Fn + F1 ~ Fn + F7
+|   0  |  EN Default              |
+|   1  |  Core functions          |
+|   2  |  Extended functions      |
+|   3  |  Layout selection        |
+|   4  |  Macros and recording    |
+|   5  |  DE Deutschland          |
+|   6  |  PL Polska               |
+|   7  |  PL Dvorak               |
+|   8  |  PL Coleman              |
+|   9  |  US Dvorak               |
+|  10  |  US Dvorak left-handed   |
+|  11  |  US Coleman              |
+|  12  |  US Coleman left-handed  |
