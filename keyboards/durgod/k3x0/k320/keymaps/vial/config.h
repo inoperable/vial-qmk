@@ -4,3 +4,5 @@
 
 #define VIAL_UNLOCK_COMBO_ROWS      { 0, 3  }
 #define VIAL_UNLOCK_COMBO_COLS      { 0, 13 }
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 10
