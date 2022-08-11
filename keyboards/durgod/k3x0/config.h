@@ -20,8 +20,8 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xD60D
-#define MANUFACTURER    Hoksi Technology
+//#define VENDOR_ID       0xD60D
+//#define MANUFACTURER    Hoksi Technology
 
 #define WAIT_US_TIMER           GPTD3
 

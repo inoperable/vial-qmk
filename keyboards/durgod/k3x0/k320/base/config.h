@@ -19,5 +19,5 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define PRODUCT         DURGOD Taurus K320 (QMK)
-#define DEVICE_VER      0x0001 // Base (no backlight)
+#define PRODUCT Taurus K320 (Vial)
+#define DEVICE_VER 0x0001 // Base (no backlight)
