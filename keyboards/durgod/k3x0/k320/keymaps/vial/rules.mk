@@ -1,7 +1,7 @@
 VIA_ENABLE				= yes
 VIAL_ENABLE 			= yes
 COMBO_ENABLE 			= yes
-COMMAND_ENABLE			= no
+COMMAND_ENABLE			= yes
 CONSOLE_ENABLE			= yes
 ENABLE_LTO				= yes
 ENCODER_ENABLE			= no
