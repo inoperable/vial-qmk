@@ -1,5 +1,7 @@
 {
-  "name": "DURGOD Taurus K320",
+  "product": "Taurus K320 (Vial)",
+  "vendor": "Durgod",
+  "name": "Taurus K320 (Vial)",
   "vendorId": "0xD60D",
   "productId": "0x3200",
   "lighting": "none",

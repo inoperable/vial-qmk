@@ -1,8 +1,5 @@
 #pragma once
 
-#define VENDOR_ID 0xD60D
-#define MANUFACTURER Durgod
-#define PRODUCT Taurus K320 (Vial)
 #define DEVICE_VER 0x0001 // Base (no backlight)
 
 #define VIAL_KEYBOARD_UID \
