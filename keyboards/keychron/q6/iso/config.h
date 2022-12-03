@@ -14,34 +14,23 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "stdint.h"
-#include "quantum_keycodes.h"
+#pragma once
 
-enum custom_keycodes {
-    KC_MISSION_CONTROL = SAFE_RANGE,
-    KC_LAUNCHPAD,
-    KC_LOPTN,
-    KC_ROPTN,
-    KC_LCMMD,
-    KC_RCMMD,
-    KC_SIRI,
-    KC_TASK_VIEW,
-    KC_FILE_EXPLORER,
-    KC_SCREEN_SHOT,
-    KC_CORTANA
-};
+/* Key matrix pins */
+#define MATRIX_ROW_PINS \
+    { B5, B4, B3, A15, A14, A13 }
+#define MATRIX_COL_PINS \
+    { A10, A9, A8, B1, B0, A7, A6, A5, A4, A3, A2, NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN, C14 }
+#define NO_PIN_START 11
+#define NO_PIN_OFFSET 1
 
-#define KC_MCTL KC_MISSION_CONTROL
-#define KC_LPAD KC_LAUNCHPAD
-#define KC_TASK KC_TASK_VIEW
-#define KC_FLXP KC_FILE_EXPLORER
-#define KC_SNAP KC_SCREEN_SHOT
-#define KC_CRTA KC_CORTANA
+/* RGB Matrix Configuration */
+#define DRIVER_1_LED_TOTAL 60
+#define DRIVER_2_LED_TOTAL 49
+#define RGB_MATRIX_LED_COUNT (DRIVER_1_LED_TOTAL + DRIVER_2_LED_TOTAL)
 
-typedef struct PACKED {
-    uint8_t len;
-    uint8_t keycode[3];
-} key_combination_t;
+/* Enable caps-lock LED*/
+#define CAPS_LOCK_LED_INDEX 60
 
-void housekeeping_task_keychron(void);
-bool process_record_keychron(uint16_t keycode, keyrecord_t *record);
+/* Enable NUM_LOCK_LED_INDEX */
+// #define NUM_LOCK_LED_INDEX 37
